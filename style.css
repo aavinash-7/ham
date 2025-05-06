@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    box-sizing:  border-box;  
+}
+a{
+    color: white;
+}
+#menu{
+    
+    color: white;
+    display: flex;
+}
+span{
+    color: white;
+}
+
+
+.bar{
+    margin: 10px;
+}
+.menu-bar{
+    background-color: darkblue;
+}
+
+@media screen and (max-width:768px){
+    #menu{
+           display: none;
+    }
+
+    #menu.menuu {
+        display: block;
+        background-color: darkblue;
+        color: white;
+        width: 10rem;
+    }
+}
