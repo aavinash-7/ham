@@ -1,4 +1,4 @@
 function display(){
-   const menu=document.getElementById("menu");
-   menu.classList.toggle("menuu");
+   const menu=document.getElementById("out");
+   out.classList.toggle("menuu");
 }

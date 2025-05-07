@@ -1,17 +1,23 @@
 *{
     margin: 0px;
+    padding: 0px;
     box-sizing:  border-box;  
 }
 a{
     color: white;
 }
 #menu{
-    
-    color: white;
     display: flex;
-}
-span{
+    gap: 20px;
+    list-style: none;
     color: white;
+   
+    
+}
+.li{
+    display: flex;
+    align-items: center;
+    
 }
 
 
@@ -20,6 +26,16 @@ span{
 }
 .menu-bar{
     background-color: darkblue;
+    display: flex;
+    color: white;
+   align-items: center;
+   justify-content: space-between;
+   
+   
+  
+}
+.span{
+    margin: 0 1rem;
 }
 
 @media screen and (max-width:768px){
@@ -27,10 +43,15 @@ span{
            display: none;
     }
 
-    #menu.menuu {
+    #out.menuu {
         display: block;
         background-color: darkblue;
         color: white;
-        width: 10rem;
+        width: 9rem;
+        padding: 2rem;
+        
+    }
+    li{
+        padding: 0.5rem;
     }
 }
